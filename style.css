@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background: url(./assets/bg.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Montserrat","Poppins";
+}
+.container{
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+.line{
+    margin: 0 5rem;
+    width: 1px;
+    height: 65px;
+    background: #ffffff;
+}
+.list{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+.list-item{
+    text-decoration: none;
+    display: inline;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 700;
+}
+.button-small{
+    display: flex;
+    margin-left: 15rem;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    padding: 1rem 1.2rem;
+    font-size: 16px;
+    font-family: "Poppins";
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 60px;
+    margin: 2em 7em 0.2em;
+    color: #ffffff;
+}
+.hero-description{
+    text-align: center;
+    color: #cdc9c9;
+    font-size: 24px;
+}
+.button-large{
+    margin: 4rem 40rem;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    padding: 1.3rem ;
+    font-size: 18px;
+    font-family: "Poppins";
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+}
